@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<style>
+    table,td,th{
+        border :1px solid black;
+
+    }
+</style>
+<script>
+    $(document).ready(function(){
+        $("#bt1").click(function(){
+            // $("table").parent().css("background","linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%)")
+            // $("#tablediv1").parent().css("background-color","pink")
+            // $("#div1").find("p").css("background-color","yellow")
+            // $("tr").parentsUntil("#body").css("background","linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%)")
+            //   $("#div1").siblings ().css("background-color","yellow")
+            // $("#div1").next().css("background-color","yellow")
+            // $("tr").nextAll().css("background-color","yellow")
+            // $("#tablediv1").nextUntil().css("background-color","yellow")
+            // $("#div2").first().css("background-color","yellow")
+            // $("p").last().css("background-color","yellow")
+            //  $("div").eq(0).css("background-color","yellow")
+              $("p").filter("#para2").css("background-color","yellow")
+
+
+        });
+            $("#button").click(function(){
+            location.reload();
+        });
+    });w
+</script>
+</head>
+<body id="body">
+    <center>
+    <h1><i><b><u>softroniics</u></b></i></h1>
+    <h2>Jquery tutorial</h2>
+    <div id="div1"style="padding: 15px;margin: 15px;display: block;border: 1px solid red;">parent div
+    <div id="tablediv1" style="padding:25px;margin: 15px;width: 50%;border: 1px solid green";>
+        <table>
+           <tr> <td>JavaScript</td></tr>
+            <tr><td>jquery</td></tr>
+           <tr> <td>angular</td></tr>
+        </table></div>
+        <div  id="div2" style="padding:25px;margin: 15px;width: 50%;border: 1px solid green">
+        <table style="align: right;">
+            <tr> <td>html</td></tr>
+             <tr><td>css</td></tr>
+            <tr> <td>javascript</td></tr>
+         </table>
+    </div>
+    <p id="paragraph">paragraf having<b>id</b>paragraph</p>
+    <p id="para2">paragraf having<b>class</b>paragraph</p>
+    <ul id="unorderedlist" title="javascriptlist" style="text-align: left;">
+        <li id="item1">Jquery</li>
+        <li id="item1">angularjs</li>
+
+    </ul>
+
+    </div>
+    <button id="bt1">click here</button>
+    <button id="button">reset</button>
+    </center>
+</body>
+</html>

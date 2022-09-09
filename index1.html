@@ -1,0 +1,229 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+<script> 
+// $(document).ready(function(){
+//   $("button").click(function(){
+//     $("button").click(function(){
+//       $("#stop").click(function(){
+//        $("#panel").stop();
+
+// });
+
+//     $("img").animate({   
+//     left: '250px',
+//     height: '+=150px',
+//     width: '+=150px'
+//   });
+// }); 
+
+    //   left: '250px',
+    //   opacity: '1',
+    //   height: '+=100px',
+    //   width: '100px'
+    // });
+//   });
+// $("button").click(function(){
+  // $("div").animate({
+  //   height: 'toggle'
+  // });
+// $("button").click(function(){
+  // $("div").animate({
+  //   left: '250px',
+  //   height: '+=150px',
+  //   width: '+=150px'
+  // });
+// }); 
+ $("button").click(function(){
+   var div = $("div");
+  div.animate({height: '300px', opacity: '0.4'}, "slow");
+//   div.animate({width: '300px', opacity: '0.8'}, "slow");
+//   div.animate({height: '100px', opacity: '0.4'}, "slow");
+//   div.animate({width: '100px', opacity: '0.8'}, "slow");
+// }); 
+//   });
+// });
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown(5000);
+  });
+  $("#stop").click(function(){
+    $("#panel").stop();
+  });
+});
+</script>
+ <button>click here</button>
+ <button id="stop">Stop sliding</button>
+<p style="color: blue;font-weight: bold;font-family: 'Courier New', Courier, monospace;">all property names must be camel-cased when used with the animate() method:<br> You will need to write paddingLeft instead of padding-left, marginRight instead of margin-right, and so on.
+</p>
+<div  id="" style="background:#5605ed;height:250px;width:250px;position:absolute;padding: 30px;margin-top: 200px;border: solid 1px #666"><p>HTML Reference
+  CSS Reference
+  JavaScript Reference
+  SQL Reference
+  Python Reference
+  </p></div>
+  <div id="flip">Click to slide down panel</div>
+<div id="panel">Hello world!</div>
+<img src="pappy/dj.jpg" width="100"height="100">
+    
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#panel").slideDown(5000);
+  });
+  $("#stop").click(function(){
+    $("#panel").stop();
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgb(192, 14, 14);
+  color: white;
+  border: solid 1px rgb(6, 1, 13);
+  border-radius: 3px;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<button>Stop sliding</button>
+
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Hello world!</div>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <style>
+    .bt1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.bt2 {
+  background-color: #3a0ae6; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.bt3 {
+  background-color: #c1cf02; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.bt4 {
+  background-color: #ec1004; /* Green */
+  }
+
+
+  </style>
+
+</head>
+
+<body>
+  <!-- <script>
+    $(document).ready(function(){
+     $("#start").click(function(){
+      var div = $("div");
+       div.animate({height: '300px', opacity: '0.4'}, "slow");
+       div.animate({width: '300px', opacity: '0.8'}, "slow");
+       div.animate({height: '100px', opacity: '0.4'}, "slow");
+       div.animate({width: '100px', opacity: '0.8'}, "slow");
+     });
+    }); 
+  </script>
+ <button id="strat">strat</button>
+ <button id="stop">stop</button>
+ <div style="background:#5605ed;height:250px;width:250px;position:absolute;padding: 30px;margin-top: 200px;border: solid 1px #666">
+  <p>Hi how are you</p></div> -->
+
+<script>
+  $(document).ready(function(){
+    $(".bt2").click(function(){
+      $(".bt2").removeClass("bt2");
+      // $("p").before(" iam raniya ");
+    });
+  
+    //   $("p").hide("slow",function(){
+    //      alert("text: " + $("#test").text());
+    //   });
+    // });
+      $(".bt1").click(function(){
+        $(".bt1").addClass("bt4");
+ 
+        
+    //     alert("HTML: " + $("#test").html());
+    
+
+  });
+
+  $(".bt3").click(function(){
+        $(".bt3").toggleClass("bt4");
+ 
+  });
+  // $(".bt3").click(function(){
+  //   $("p").remove();
+  //  });
+  //  $("#bt4").click(function(){
+  //   $("p").empty();
+  //  });
+  //  $("#bt5").click(function(){
+  //   $("p").empty();
+  $("p").css({color: "red",size: 200})
+   });
+  
+</script>
+<button class="bt1">addClass</button>
+<button class="bt2">removeClass</button>
+<button class="bt3">toggle</button>
+<!-- <button id="bt4">empty</button>
+<button id="bt5">add</button> -->
+<P id="test">hello how are you</P>
+<p id="test1">dfgjuurtdetuhikhiu</p>
+</body>
+</html>
+ 

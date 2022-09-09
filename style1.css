@@ -1,0 +1,19 @@
+#drag{
+    width: 2200;
+    height: 60px;
+    color: green;display: none;
+}
+#div2{
+    width: 2200;
+    height: 60px;
+    color: white;display: none;
+
+}
+#div3{
+    width: 2200;
+    height: 60px;
+    color: orange;display: none;
+}
+/* body{
+    background-color: blanchedalmond;
+} */
